@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B391FC41BFCB35F4E3D9D9 /* Pods_GoBetSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71129FFF78325EFCDEA9D25 /* Pods_GoBetSearch.framework */; };
 		4BAC5CDF1F1A29F600503652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CDE1F1A29F600503652 /* AppDelegate.swift */; };
 		4BAC5CE11F1A29F600503652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE01F1A29F600503652 /* ViewController.swift */; };
 		4BAC5CE41F1A29F600503652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE21F1A29F600503652 /* Main.storyboard */; };
 		4BAC5CE71F1A29F600503652 /* GoBetSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE51F1A29F600503652 /* GoBetSearch.xcdatamodeld */; };
 		4BAC5CE91F1A29F600503652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE81F1A29F600503652 /* Assets.xcassets */; };
 		4BAC5CEC1F1A29F600503652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CEA1F1A29F600503652 /* LaunchScreen.storyboard */; };
+		4BAC5CF51F1A2C6700503652 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CF41F1A2C6700503652 /* DataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		4BAC5CE81F1A29F600503652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BAC5CEB1F1A29F600503652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BAC5CED1F1A29F600503652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BAC5CF41F1A2C6700503652 /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		5B221B02AF085C442467C113 /* Pods-GoBetSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBetSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch.release.xcconfig"; sourceTree = "<group>"; };
+		9A3C1CC3699D6BDECA7EDF37 /* Pods-GoBetSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBetSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		C71129FFF78325EFCDEA9D25 /* Pods_GoBetSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoBetSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B391FC41BFCB35F4E3D9D9 /* Pods_GoBetSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4384C61F4E23080A3A736DC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C1CC3699D6BDECA7EDF37 /* Pods-GoBetSearch.debug.xcconfig */,
+				5B221B02AF085C442467C113 /* Pods-GoBetSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4BAC5CD21F1A29F600503652 = {
 			isa = PBXGroup;
 			children = (
 				4BAC5CDD1F1A29F600503652 /* GoBetSearch */,
 				4BAC5CDC1F1A29F600503652 /* Products */,
+				4384C61F4E23080A3A736DC2 /* Pods */,
+				BC75F72B0FF209D90767AA85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +74,7 @@
 		4BAC5CDD1F1A29F600503652 /* GoBetSearch */ = {
 			isa = PBXGroup;
 			children = (
+				4BAC5CF31F1A2C4C00503652 /* Helpers */,
 				4BAC5CDE1F1A29F600503652 /* AppDelegate.swift */,
 				4BAC5CE01F1A29F600503652 /* ViewController.swift */,
 				4BAC5CE21F1A29F600503652 /* Main.storyboard */,
@@ -67,6 +86,22 @@
 			path = GoBetSearch;
 			sourceTree = "<group>";
 		};
+		4BAC5CF31F1A2C4C00503652 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4BAC5CF41F1A2C6700503652 /* DataHandler.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BC75F72B0FF209D90767AA85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71129FFF78325EFCDEA9D25 /* Pods_GoBetSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BAC5CF01F1A29F600503652 /* Build configuration list for PBXNativeTarget "GoBetSearch" */;
 			buildPhases = (
+				13AF42F7E233572B10B98612 /* [CP] Check Pods Manifest.lock */,
 				4BAC5CD71F1A29F600503652 /* Sources */,
 				4BAC5CD81F1A29F600503652 /* Frameworks */,
 				4BAC5CD91F1A29F600503652 /* Resources */,
+				F72AAAC01163065384CD2B9A /* [CP] Embed Pods Frameworks */,
+				97CF6EC59B9EA789DAD429C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,11 +173,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13AF42F7E233572B10B98612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97CF6EC59B9EA789DAD429C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72AAAC01163065384CD2B9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BAC5CD71F1A29F600503652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAC5CF51F1A2C6700503652 /* DataHandler.swift in Sources */,
 				4BAC5CE11F1A29F600503652 /* ViewController.swift in Sources */,
 				4BAC5CE71F1A29F600503652 /* GoBetSearch.xcdatamodeld in Sources */,
 				4BAC5CDF1F1A29F600503652 /* AppDelegate.swift in Sources */,
@@ -263,6 +350,7 @@
 		};
 		4BAC5CF11F1A29F600503652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3C1CC3699D6BDECA7EDF37 /* Pods-GoBetSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68Y57ZGKLJ;
@@ -276,6 +364,7 @@
 		};
 		4BAC5CF21F1A29F600503652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B221B02AF085C442467C113 /* Pods-GoBetSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68Y57ZGKLJ;
@@ -306,6 +395,7 @@
 				4BAC5CF21F1A29F600503652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

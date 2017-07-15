@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let dataHandler = DataHandler()
+        dataHandler.logIn(email: Variables.EmailId, password: Variables.password) { (success) in
+            print( success )
+            dataHandler.getListofOperator(completionHandler: { (operators) in
+                print(operators)
+            })
+        }
+    
     }
 
     override func didReceiveMemoryWarning() {
