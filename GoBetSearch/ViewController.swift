@@ -15,11 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let dataHandler = DataHandler()
-        dataHandler.logIn(email: Variables.EmailId, password: Variables.password) { (success) in
+        dataHandler.logIn(email: Variables.Email, password: Variables.password) { (success) in
             print( success )
-            dataHandler.getListofOperator(completionHandler: { (operators) in
-                print(operators)
-            })
+ 
         }
     
     }

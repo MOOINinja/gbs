@@ -1,0 +1,6 @@
+framework module Pods_GoBetSearch {
+  umbrella header "Pods-GoBetSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

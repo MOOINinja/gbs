@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		25B391FC41BFCB35F4E3D9D9 /* Pods_GoBetSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71129FFF78325EFCDEA9D25 /* Pods_GoBetSearch.framework */; };
+		4B1381B71F1E3FBD00D9A8CC /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1381B51F1E3FBD00D9A8CC /* Dates.swift */; };
+		4B1381B81F1E3FBD00D9A8CC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1381B61F1E3FBD00D9A8CC /* Models.swift */; };
 		4BAC5CDF1F1A29F600503652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CDE1F1A29F600503652 /* AppDelegate.swift */; };
 		4BAC5CE11F1A29F600503652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE01F1A29F600503652 /* ViewController.swift */; };
 		4BAC5CE41F1A29F600503652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE21F1A29F600503652 /* Main.storyboard */; };
@@ -15,9 +17,31 @@
 		4BAC5CE91F1A29F600503652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CE81F1A29F600503652 /* Assets.xcassets */; };
 		4BAC5CEC1F1A29F600503652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC5CEA1F1A29F600503652 /* LaunchScreen.storyboard */; };
 		4BAC5CF51F1A2C6700503652 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC5CF41F1A2C6700503652 /* DataHandler.swift */; };
+		787A160E1F1B4B600067D16A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A160D1F1B4B600067D16A /* CustomTabBar.swift */; };
+		787A16101F1B55E60067D16A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A160F1F1B55E60067D16A /* Extensions.swift */; };
+		787A16141F1B58050067D16A /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16131F1B58050067D16A /* BaseCollectionCell.swift */; };
+		787A16161F1B58210067D16A /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16151F1B58210067D16A /* BaseTableCell.swift */; };
+		787A161B1F1B5F9E0067D16A /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A161A1F1B5F9E0067D16A /* OfferCollectionViewCell.swift */; };
+		787A161D1F1B938E0067D16A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A161C1F1B938E0067D16A /* HomeVC.swift */; };
+		787A161F1F1CB96A0067D16A /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A161E1F1CB96A0067D16A /* GameCell.swift */; };
+		787A16211F1CCC080067D16A /* OfferHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16201F1CCC080067D16A /* OfferHeaderCell.swift */; };
+		787A16231F1CD0EB0067D16A /* GameHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16221F1CD0EB0067D16A /* GameHeaderCell.swift */; };
+		787A16251F1CD87D0067D16A /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16241F1CD87D0067D16A /* OfferCell.swift */; };
+		787A16271F1CDE800067D16A /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16261F1CDE800067D16A /* GameCollectionViewCell.swift */; };
+		787A16291F1CE6B30067D16A /* TopEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16281F1CE6B30067D16A /* TopEventCell.swift */; };
+		787A162B1F1CE8090067D16A /* MyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A162A1F1CE8090067D16A /* MyListCell.swift */; };
+		787A162D1F1CF92A0067D16A /* GameLobbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A162C1F1CF92A0067D16A /* GameLobbyVC.swift */; };
+		787A16311F1D6E3D0067D16A /* LeaderBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16301F1D6E3D0067D16A /* LeaderBoardCollectionViewCell.swift */; };
+		787A16331F1D6F210067D16A /* LeaderBoardCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16321F1D6F210067D16A /* LeaderBoardCardCell.swift */; };
+		787A16351F1D72030067D16A /* LeaderBoardHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16341F1D72030067D16A /* LeaderBoardHeaderCell.swift */; };
+		787A16371F1D79450067D16A /* AllGamesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16361F1D79450067D16A /* AllGamesHeaderCell.swift */; };
+		787A16391F1D7B410067D16A /* AllGamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A16381F1D7B410067D16A /* AllGamesCollectionViewCell.swift */; };
+		787A163B1F1E1F200067D16A /* LeaderBoardPlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A163A1F1E1F200067D16A /* LeaderBoardPlayerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1381B51F1E3FBD00D9A8CC /* Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		4B1381B61F1E3FBD00D9A8CC /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		4BAC5CDB1F1A29F600503652 /* GoBetSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBetSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAC5CDE1F1A29F600503652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BAC5CE01F1A29F600503652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +52,26 @@
 		4BAC5CED1F1A29F600503652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BAC5CF41F1A2C6700503652 /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
 		5B221B02AF085C442467C113 /* Pods-GoBetSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBetSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch.release.xcconfig"; sourceTree = "<group>"; };
+		787A160D1F1B4B600067D16A /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		787A160F1F1B55E60067D16A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		787A16131F1B58050067D16A /* BaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		787A16151F1B58210067D16A /* BaseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		787A161A1F1B5F9E0067D16A /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		787A161C1F1B938E0067D16A /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		787A161E1F1CB96A0067D16A /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		787A16201F1CCC080067D16A /* OfferHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferHeaderCell.swift; sourceTree = "<group>"; };
+		787A16221F1CD0EB0067D16A /* GameHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHeaderCell.swift; sourceTree = "<group>"; };
+		787A16241F1CD87D0067D16A /* OfferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		787A16261F1CDE800067D16A /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		787A16281F1CE6B30067D16A /* TopEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopEventCell.swift; sourceTree = "<group>"; };
+		787A162A1F1CE8090067D16A /* MyListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListCell.swift; sourceTree = "<group>"; };
+		787A162C1F1CF92A0067D16A /* GameLobbyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLobbyVC.swift; sourceTree = "<group>"; };
+		787A16301F1D6E3D0067D16A /* LeaderBoardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		787A16321F1D6F210067D16A /* LeaderBoardCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardCardCell.swift; sourceTree = "<group>"; };
+		787A16341F1D72030067D16A /* LeaderBoardHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardHeaderCell.swift; sourceTree = "<group>"; };
+		787A16361F1D79450067D16A /* AllGamesHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGamesHeaderCell.swift; sourceTree = "<group>"; };
+		787A16381F1D7B410067D16A /* AllGamesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGamesCollectionViewCell.swift; sourceTree = "<group>"; };
+		787A163A1F1E1F200067D16A /* LeaderBoardPlayerListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardPlayerListCell.swift; sourceTree = "<group>"; };
 		9A3C1CC3699D6BDECA7EDF37 /* Pods-GoBetSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBetSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoBetSearch/Pods-GoBetSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		C71129FFF78325EFCDEA9D25 /* Pods_GoBetSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoBetSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,9 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				4BAC5CF31F1A2C4C00503652 /* Helpers */,
+				787A16111F1B57E40067D16A /* Cells */,
 				4BAC5CDE1F1A29F600503652 /* AppDelegate.swift */,
-				4BAC5CE01F1A29F600503652 /* ViewController.swift */,
+				787A160D1F1B4B600067D16A /* CustomTabBar.swift */,
+				787A161C1F1B938E0067D16A /* HomeVC.swift */,
+				787A162C1F1CF92A0067D16A /* GameLobbyVC.swift */,
 				4BAC5CE21F1A29F600503652 /* Main.storyboard */,
+				4BAC5CE01F1A29F600503652 /* ViewController.swift */,
 				4BAC5CE81F1A29F600503652 /* Assets.xcassets */,
 				4BAC5CEA1F1A29F600503652 /* LaunchScreen.storyboard */,
 				4BAC5CED1F1A29F600503652 /* Info.plist */,
@@ -89,9 +137,67 @@
 		4BAC5CF31F1A2C4C00503652 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4B1381B51F1E3FBD00D9A8CC /* Dates.swift */,
+				4B1381B61F1E3FBD00D9A8CC /* Models.swift */,
 				4BAC5CF41F1A2C6700503652 /* DataHandler.swift */,
+				787A160F1F1B55E60067D16A /* Extensions.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		787A16111F1B57E40067D16A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				787A16121F1B57F60067D16A /* Base */,
+				787A16171F1B582E0067D16A /* HomeCells */,
+				787A162E1F1D6DDD0067D16A /* GameCells */,
+				787A162F1F1D6E030067D16A /* LeaderBoardCells */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		787A16121F1B57F60067D16A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				787A16131F1B58050067D16A /* BaseCollectionCell.swift */,
+				787A16151F1B58210067D16A /* BaseTableCell.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		787A16171F1B582E0067D16A /* HomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				787A16281F1CE6B30067D16A /* TopEventCell.swift */,
+				787A162A1F1CE8090067D16A /* MyListCell.swift */,
+				787A16201F1CCC080067D16A /* OfferHeaderCell.swift */,
+				787A161A1F1B5F9E0067D16A /* OfferCollectionViewCell.swift */,
+				787A16241F1CD87D0067D16A /* OfferCell.swift */,
+			);
+			name = HomeCells;
+			sourceTree = "<group>";
+		};
+		787A162E1F1D6DDD0067D16A /* GameCells */ = {
+			isa = PBXGroup;
+			children = (
+				787A16221F1CD0EB0067D16A /* GameHeaderCell.swift */,
+				787A16261F1CDE800067D16A /* GameCollectionViewCell.swift */,
+				787A161E1F1CB96A0067D16A /* GameCell.swift */,
+				787A16361F1D79450067D16A /* AllGamesHeaderCell.swift */,
+				787A16381F1D7B410067D16A /* AllGamesCollectionViewCell.swift */,
+			);
+			name = GameCells;
+			sourceTree = "<group>";
+		};
+		787A162F1F1D6E030067D16A /* LeaderBoardCells */ = {
+			isa = PBXGroup;
+			children = (
+				787A16341F1D72030067D16A /* LeaderBoardHeaderCell.swift */,
+				787A16301F1D6E3D0067D16A /* LeaderBoardCollectionViewCell.swift */,
+				787A16321F1D6F210067D16A /* LeaderBoardCardCell.swift */,
+				787A163A1F1E1F200067D16A /* LeaderBoardPlayerListCell.swift */,
+			);
+			name = LeaderBoardCells;
 			sourceTree = "<group>";
 		};
 		BC75F72B0FF209D90767AA85 /* Frameworks */ = {
@@ -186,7 +292,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		97CF6EC59B9EA789DAD429C6 /* [CP] Copy Pods Resources */ = {
@@ -226,10 +332,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787A163B1F1E1F200067D16A /* LeaderBoardPlayerListCell.swift in Sources */,
+				4B1381B81F1E3FBD00D9A8CC /* Models.swift in Sources */,
+				787A16231F1CD0EB0067D16A /* GameHeaderCell.swift in Sources */,
+				787A162D1F1CF92A0067D16A /* GameLobbyVC.swift in Sources */,
 				4BAC5CF51F1A2C6700503652 /* DataHandler.swift in Sources */,
+				787A161B1F1B5F9E0067D16A /* OfferCollectionViewCell.swift in Sources */,
+				787A161F1F1CB96A0067D16A /* GameCell.swift in Sources */,
+				4B1381B71F1E3FBD00D9A8CC /* Dates.swift in Sources */,
+				787A16161F1B58210067D16A /* BaseTableCell.swift in Sources */,
+				787A16141F1B58050067D16A /* BaseCollectionCell.swift in Sources */,
 				4BAC5CE11F1A29F600503652 /* ViewController.swift in Sources */,
+				787A16271F1CDE800067D16A /* GameCollectionViewCell.swift in Sources */,
+				787A162B1F1CE8090067D16A /* MyListCell.swift in Sources */,
+				787A16311F1D6E3D0067D16A /* LeaderBoardCollectionViewCell.swift in Sources */,
 				4BAC5CE71F1A29F600503652 /* GoBetSearch.xcdatamodeld in Sources */,
+				787A16391F1D7B410067D16A /* AllGamesCollectionViewCell.swift in Sources */,
+				787A160E1F1B4B600067D16A /* CustomTabBar.swift in Sources */,
 				4BAC5CDF1F1A29F600503652 /* AppDelegate.swift in Sources */,
+				787A16351F1D72030067D16A /* LeaderBoardHeaderCell.swift in Sources */,
+				787A161D1F1B938E0067D16A /* HomeVC.swift in Sources */,
+				787A16371F1D79450067D16A /* AllGamesHeaderCell.swift in Sources */,
+				787A16251F1CD87D0067D16A /* OfferCell.swift in Sources */,
+				787A16211F1CCC080067D16A /* OfferHeaderCell.swift in Sources */,
+				787A16101F1B55E60067D16A /* Extensions.swift in Sources */,
+				787A16291F1CE6B30067D16A /* TopEventCell.swift in Sources */,
+				787A16331F1D6F210067D16A /* LeaderBoardCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
